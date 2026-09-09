@@ -1,0 +1,3 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{t}from"./jsx-runtime-f3rHp9ZU.js";import{n,r}from"./ClockSwitcherPanel-DqQC6042.js";var i,a,o,s;e((()=>{r(),i=t(),a={title:`Live-Versteigerung/ClockSwitcherPanel`,parameters:{layout:`centered`}},o={render:()=>(0,i.jsx)(n,{})},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  render: () => <ClockSwitcherPanel />
+}`,...o.parameters?.docs?.source}}},s=[`Default`]}))();export{o as Default,s as __namedExportsOrder,a as default};

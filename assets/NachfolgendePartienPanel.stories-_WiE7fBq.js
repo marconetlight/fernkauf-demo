@@ -1,0 +1,3 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{t}from"./jsx-runtime-f3rHp9ZU.js";import{n,t as r}from"./NachfolgendePartienPanel-iWtfYonJ.js";var i,a,o,s;e((()=>{n(),i=t(),a={title:`Live-Versteigerung/NachfolgendePartienPanel`,parameters:{layout:`centered`}},o={render:()=>(0,i.jsx)(r,{onHoverUhr:()=>{},hoveredUhr:null})},o.parameters={...o.parameters,docs:{...o.parameters?.docs,source:{originalSource:`{
+  render: () => <NachfolgendePartienPanel onHoverUhr={() => {}} hoveredUhr={null} />
+}`,...o.parameters?.docs?.source}}},s=[`Default`]}))();export{o as Default,s as __namedExportsOrder,a as default};

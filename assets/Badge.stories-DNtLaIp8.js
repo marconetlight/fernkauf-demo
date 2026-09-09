@@ -1,0 +1,16 @@
+import{i as e}from"./preload-helper-BdFrVu1K.js";import{t}from"./jsx-runtime-f3rHp9ZU.js";import{n,t as r}from"./cn-CHNBg8JS.js";function i({label:e,variant:t=`default`,dot:n,className:i}){return(0,a.jsxs)(`span`,{className:r(`inline-flex items-center gap-1 font-sans text-[11px] font-medium uppercase tracking-[0.06em] px-2 py-0.5 rounded-full leading-none`,o[t],i),children:[n&&(0,a.jsx)(`span`,{className:`w-1.5 h-1.5 rounded-full shrink-0`,style:{background:`currentColor`}}),e]})}var a,o,s=e((()=>{n(),a=t(),o={default:`bg-neutral-border-default text-neutral-primary`,success:`bg-primary-success text-primary-default`,warning:`bg-accent-sand text-neutral-primary`,error:`bg-status-error-subtle text-status-error`,info:`bg-status-info text-neutral-surface`,purple:`bg-accent-violet-subtle text-accent-violet`},i.__docgenInfo={description:``,methods:[],displayName:`Badge`,props:{label:{required:!0,tsType:{name:`string`},description:``},variant:{required:!1,tsType:{name:`union`,raw:`"default" | "success" | "warning" | "error" | "info" | "purple"`,elements:[{name:`literal`,value:`"default"`},{name:`literal`,value:`"success"`},{name:`literal`,value:`"warning"`},{name:`literal`,value:`"error"`},{name:`literal`,value:`"info"`},{name:`literal`,value:`"purple"`}]},description:``,defaultValue:{value:`"default"`,computed:!1}},dot:{required:!1,tsType:{name:`boolean`},description:``},className:{required:!1,tsType:{name:`string`},description:``}}}})),c,l,u,d,f;e((()=>{s(),c=t(),l={title:`Components/Badge`,component:i,parameters:{layout:`centered`},args:{label:`Badge`,variant:`default`}},u={},d={name:`All variants`,render:()=>(0,c.jsxs)(`div`,{className:`flex flex-wrap gap-3 p-6 bg-neutral-surface-muted rounded-xl`,children:[[`default`,`success`,`warning`,`error`,`info`,`purple`].map(e=>(0,c.jsx)(i,{variant:e,label:e},e)),(0,c.jsx)(i,{variant:`success`,label:`Live`,dot:!0})]})},u.parameters={...u.parameters,docs:{...u.parameters?.docs,source:{originalSource:`{}`,...u.parameters?.docs?.source},description:{story:`Use the controls panel to explore all variants.
+
+- **default** — neutral state, no semantic meaning
+- **success** — active, confirmed, or positive state
+- **warning** — requires attention but not urgent
+- **error** — failed or invalid state
+- **info** — informational, e.g. Veiling Light group
+- **purple** — VL-specific highlight (Gruppe 1/2)
+
+Add \`dot\` for a pulsing live indicator, e.g. on the active clock.`,...u.parameters?.docs?.description}}},d.parameters={...d.parameters,docs:{...d.parameters?.docs,source:{originalSource:`{
+  name: "All variants",
+  render: () => <div className="flex flex-wrap gap-3 p-6 bg-neutral-surface-muted rounded-xl">
+      {(["default", "success", "warning", "error", "info", "purple"] as const).map(v => <Badge key={v} variant={v} label={v} />)}
+      <Badge variant="success" label="Live" dot />
+    </div>
+}`,...d.parameters?.docs?.source}}},f=[`Default`,`AllVariants`]}))();export{d as AllVariants,u as Default,f as __namedExportsOrder,l as default};
